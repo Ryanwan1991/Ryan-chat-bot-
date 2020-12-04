@@ -23,7 +23,7 @@ handler = WebhookHandler('3c0582d8762771c056e4339a3c759ce5')
 
 @app.route("/")
 def home():
-    return 'home OK'
+    return 'Test OK'
 
 # 監聽所有來自 /callback 的 Post Request
 
